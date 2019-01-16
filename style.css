@@ -1,4 +1,4 @@
-header {
+body {
   font-family: arial, sans-serif;
   font-size: 12px;
 }
@@ -23,6 +23,12 @@ header {
     margin: 0 auto;
     width: 484px;
   }
+#mic {
+  color: blue;
+  position: fixed;
+  right: 715px;
+  top: 275px;
+  }
 
 ul {
     list-style-type: none;
@@ -34,6 +40,7 @@ ul li {
     display: inline-block;
     margin: 5px 10px;
   }
+
 .rightnav{
   float: right;
   position: relative;
@@ -63,21 +70,22 @@ button {
     line-height: 27px;
 }
 
-
-.botbar {
-    background: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
-    min-width: 980px;
-    float: fixed;
-    font-family: arial, sans-serif;
-    font-size: 12px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 35px;
+footer {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  bottom: 0;
+  position: fixed;
 }
 
-.botbar a{
+footer {
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid rgb(211, 211, 211);
+    background-color: rgb(235, 235, 235);
+    padding-bottom: 5px;
+}
+
+#botbar a{
   color: rgba(0,0,0,0.87);
   text-decoration: none;
 }
