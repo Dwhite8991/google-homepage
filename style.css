@@ -1,31 +1,39 @@
-* {
-  box-sizing: border-box;
+header {
+  font-family: arial, sans-serif;
+  font-size: 12px;
 }
 
 .center {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  clear: both;
-  padding-top: 112px;
-  padding-bottom: 20px;
-}
-
-.sign_in {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+  }
   
-}
+.searchbar {
+    background: #fff;
+    display: flex;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 484px;
+  }
 
 ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 15px;
-}
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+  }
 
 ul li {
-  display: inline-block;
-  margin: 5px 10px;
-}
-
+    display: inline-block;
+    margin: 5px 10px;
+  }
 .rightnav{
   float: right;
   position: relative;
@@ -33,20 +41,43 @@ ul li {
   padding-right: 0px;
 }
 
-.searchbar {
-  border-radius: 2px;
-}
-#g_search {
-  border: none;
-  padding: 8px 15px;
-  border-radius: 1px;
-  background-color: #eaeaea;
-  position: relative;
+#navbar a{
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
 }
 
-#feeling_lucky {
-  border: none;
-  padding: 8px 15px;
-  border-radius: 1px;
-  background-color: #eaeaea;
+button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    height: 36px;
+    line-height: 27px;
+}
+
+
+.botbar {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    min-width: 980px;
+    float: fixed;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+}
+
+.botbar a{
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
 }
